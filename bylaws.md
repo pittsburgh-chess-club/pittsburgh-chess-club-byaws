@@ -1,33 +1,41 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
 subtitle: Bylaws
-date: 'Amended by the Board of Directors: March 11, 2020.'
+date: 'Amended by the Board of Directors: September 9, 2020.'
 numbersections: no
 geometry: margin=1.25in
 ...
 
 # Article I. Membership
 1. Anyone interested in chess shall be eligible for membership.  There shall be six (6) classes of members:
-    a. **Regular members** (18 to 64 years) shall pay dues as established by the Board of Directors and shall be eligible to vote at membership meetings and to hold all Club offices.
-    b. **Affiliate members** (Members of a Registered Affiliate Club) shall pay dues as established by the Board of Directors and shall be eligible to vote at membership meetings and to hold all Club offices.
-    c. **Senior members** (65 years and older) shall pay dues as established by the Board of Directors and shall be eligible to vote at membership meetings and to hold all Club offices.
-    d. **Junior members** (under 18 years) shall pay dues as established by the Board of Directors and shall be eligible to vote at membership meetings and to hold any Club offices other than President, Vice President or Treasurer.
-    e. **Honorary members** shall not be required to pay dues but shall be eligible to vote at membership meetings but not to hold any Club offices.
+    a. **Regular members** (18 to 64 years) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold all Club offices after one year of membership.
+    b. **Affiliate members** (Members of a Registered Affiliate Club) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold all Club offices after one year of membership.
+    c. **Senior members** (65 years and older) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold all Club offices after one year of membership.
+    d. **Junior members** (under 18 years) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold any Club offices other than President, Vice President or Treasurer after one year of membership.
+    e. **Honorary members** shall not be required to pay dues but shall be eligible to register to vote at membership meetings but not to hold any Club offices.
     f. **Associate members** shall pay dues as established by the Board of Directors but shall not be eligible to vote at membership meetings or to hold any Club offices.  Qualification for Associate membership shall be determined by the Board of Directors.
 2. Application for membership shall be subject to approval by majority vote of the Board of Directors.  In addition, the Board shall have the power to censure, suspend or expel any member for conduct unacceptable to the Club, but such action may be taken only by a two-thirds (2/3) vote of the entire Board.
 3. The term "enfranchised member" as used in these By-Laws shall denote all members in categories Regular, Affiliate, Senior, Junior and Honorary of Section 1 of this Article who are not currently suspended from membership.
-4. **Membership Data.**
+4. **Voting Members**
+    a. **Responsibility.** The Voting Members are responsible for electing the Board of Directors. Information regarding nominees and voting instructions shall be provided to all enfranchised members and on the Club website.
+    b. **Definition.** Members with memberships of less than one year duration at their start are not eligible to become voting members. All other PCC enfranchised members are entitled to register as voting members. All Board of Directors are voting members.
+    c. **Registration.** Eligible members who are not already registered as Voting Members must register with the Membership Committee by October 15th to be eligible to vote in that year's regular election. The exception to this eligibility are the Board of Directors, who are automatically registered as Voting Members. There is no registration fee. Once registered, a member's status as a Voting Member continues as long as he or she is a member. When a membership lapses, Voting Member status ceases and the member must, after rejoining, again register by October 15th to be eligible to vote in that year's regular election.
+    d. **Membership Requirement.** In order to vote in a regular election, registered Voting Members must be Club members on October 15th of the election year, for the entire day Eastern Time, and Voting Members memberships must be paid up in full. The Club will consider all dues postmarked October 8th as paid in full.
+    e. **Special Elections.** The eligibility dates for voting in an election shall be part of the call for the special election and should use cutoff dates equivalent to the above based on when the ballots are expected to be received by the voting members.
+    f. **Nomination Deadlines.** The registration deadline for those not already registered shall be the same as the deadline for the submission of nominating petitions.
+    g. **Electronic Voting.** Should the PCC implement an electronic voting system as an alternative to using paper ballot or verbal vote, voting members will only be entitled to vote using the electronic voting system unless they request a paper ballot by writing to the Membership Committee prior to October 8th for a regular election or the equivalent cutoff date for a special election.
+5. **Membership Data.**
     a. A Membership Registry (aka. Registry) shall be defined as any data source which can retain details about each Club member, including: name, contact details, membership status, membership expiration date,status of dues payment, and transactions.
     b. New and renewing memberships shall be recorded into the Registry within at least (1) month of application acceptance.
     c. Access to the Registry shall be controlled, it's privacy safe-guarded, and it's availability ensured by the Club Officers.
     d. The Club shall maintain a Privacy Policy.
-5. **Membership Notifications.**
+6. **Membership Notifications.**
     a. A Membership Notification is a message from the Board of Directors, a Membership Director, or Membership Committee to one or more enfranchised members. The message type can vary between(depending on contact details available): email, U.S. Postal mail, phone call, SMS text message, or announcement on the Club Website
     b. Notifications shall be sent to individual enfranchised members whenever any of the following criteria is met (that applies):
         i. New or renewing membership application has been accepted
         ii. Membership expiration is within 30-days
         iii. Membership expiration date has passed
-6. **Membership Reporting.**
+7. **Membership Reporting.**
     a. The status of Club Memberships shall be reported at every Board of Directors meeting. Specifically, the status shall include at minimum:
         i. Count of active members, categorized by membership type
         ii. Count of new/renewed memberships in last 30-days
@@ -68,16 +76,15 @@ geometry: margin=1.25in
 
 # Article III. Membership Meetings
 
-1. The President shall call an annual membership meeting for conduct of Club business on any date during October, to be held at the Club quarters.  In addition, upon the affirmative vote of a majority of the entire Board of Directors, the President shall call such special membership meetings as may be required.
+1. The President shall call an annual membership meeting for conduct of Club business on any date during October, to be held at the Club quarters or via Web Conference.  In addition, upon the affirmative vote of a majority of the entire Board of Directors, the President shall call such special membership meetings as may be required.
 2. At least fourteen (14) days before the date selected for the annual or any special membership meeting, the Secretary shall mail to each enfranchised member a notice and agenda for that meeting.  Alternatively, provided that the fourteen (14) day advance notice requirement is met, publication of such notice and agenda in the Club newsletter shall suffice.
-3. Only individuals whose memberships are paid up in full seven calendar days before the annual membership meeting shall be eligible to execute their voting privileges at the meeting.  The Club will consider all dues postmarked seven days in advance of the meeting as paid in full.
-4. At any membership meeting, fifteen (15) percent of the current enfranchised members shall constitute a quorum.
-5. Membership meetings shall be conducted in accordance with Robert's Rules of Order.
+3. At any membership meeting, fifteen (15) percent of the current enfranchised members who are eligible to register to vote shall constitute a quorum.
+4. Membership meetings shall be conducted in accordance with Robert's Rules of Order.
 
 # Article IV. Elections
 
 1. Directors shall be elected at the annual membership meeting for a term of three (3) years in such a way that the terms of one-third (1/3) of the Directors shall expire each year.
-2. Nominations for membership on the Board of Directors shall be made by a Nominating Committee of at least three (#) Club members appointed by the President and chaired by a Director whose term does not expire during the current year.  This committee shall, by August 15, report its slate of nominees in writing to the President.  In addition, candidates may be nominated from the floor at the annual membership meeting.
+2. Nominations for membership on the Board of Directors shall be made by a Nominating Committee of at least three (#) Club members appointed by the President and chaired by a Director whose term does not expire during the current year.  This committee shall, by August 15, report its slate of nominees in writing to the President. In addition, any enfranchised member who is eligible to register to vote may be nominated as a candidate. Nominating petitions must be submitted on or before October 1st of that year's election.
 3. The Secretary shall include, with the notice and agenda of the annual membership meeting, the slate of candidates named by the Nominating Committee.
 
 # Article V. Amendments
