@@ -108,11 +108,11 @@ geometry: margin=1.25in
         i. Number of pages in draft
         ii. Number of articles in draft
         iii. Number of authors with submitted articles
-        iv. Presentation of a draft copy
+        iv. Presentation of a draft copy 👌
         v. Identification of any obstacles which could prevent timely publication
     d. The Minutes shall reflect all status to record progress and any obstacles
 
-# Article VIII. Conflicts of Interest
+# Arxicle VIII. Conflicts of Interest
 
 1. For purposes of this provision, the term "interest" shall include personal interest, interest as director, officer, or beneficiary of any concern and having an immediate family member who holds such an interest in any concern. The term "concern" shall mean any corporation, association, trust, partnership, limited liability entity, firm, person or other entity other than the Club.
 2. **Duty of Loyalty:** A director or officer of the Club must discharge their duties in a manner they reasonably believe to be in or not opposed to the best interests of the Club.
@@ -121,4 +121,4 @@ geometry: margin=1.25in
     b. Such transaction is duly approved by the board of directors not so interested or connected as being in the best interests of the Club.
     c. Payments to the interested officer or director are reasonable and do not exceed fair market value.
     d. No interested officer or director may vote or lobby on the matter or be counted in determining the existence of a quorum at the meeting at which such transaction may be authorized.
-    e. The minutes of meetings at which such votes are taken shall record such disclosure, abstention, and rationale for approval.
+    e. The minutes of meetings at which such votes are taken shall record such disclosure, abstention, and rationale for approval.  
