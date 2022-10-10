@@ -1,16 +1,27 @@
 #!/usr/bin/env bash
 
-echo 'Potential Misspellings:'
-for f in bylaws.md ; do
-	echo $f ; aspell --add-extra-dicts=./templates/dictionary.en list < $f | sort | uniq -c
-done
+BYLAWS='bylaws.md'
+OUR_DICTIONARY='./templates/dictionary.en'
+EXIT_STATE=0
 
-echo ''
+if [[ -n "$(aspell --add-extra-dicts=${OUR_DICTIONARY} list < ${BYLAWS})" ]]; then
+    echo 'Potential Misspellings:'
+    aspell --add-extra-dicts=${OUR_DICTIONARY} list < ${BYLAWS} | sort | uniq -c
+    echo ''
+    EXIT_STATE=1
+fi
 
-echo 'Non-ASCII characters:'
-grep --color='auto' -P -n "[^\x00-\x7F]" bylaws.md
+if [[ -n "$( grep --color='auto' -P -n "[^\x00-\x7F]" ${BYLAWS})" ]]; then
+    echo 'Non-ASCII characters:'
+    grep --color='auto' -P -n "[^\x00-\x7F]" ${BYLAWS}
+    echo ''
+    EXIT_STATE=1
+fi
 
-echo ''
+if [[ -n "$(grep -Hn '[[:blank:]]$' ${BYLAWS})" ]]; then
+    echo 'Trailing whitespace:'
+    grep -Hn '[[:blank:]]$' ${BYLAWS}
+    EXIT_STATE=1
+fi
 
-echo 'Trailing whitespace:'
-grep -Hn '[[:blank:]]$' bylaws.md
+exit $EXIT_STATE
