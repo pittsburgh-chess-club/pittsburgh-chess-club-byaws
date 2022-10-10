@@ -1,6 +1,9 @@
 .PHONY: all clean pdf html docx
 
-all: pdf html docx
+build: pdf html docx
+
+test: bylaws.md
+	./lint.sh
 
 pdf: bylaws.md
 	pandoc bylaws.md --to=latex -o bylaws.pdf -N --table-of-contents \
