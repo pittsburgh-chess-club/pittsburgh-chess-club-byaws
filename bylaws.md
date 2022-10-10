@@ -1,7 +1,7 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
 subtitle: Bylaws
-date: 'Amended by the Board of Directors: September 9, 2020.'
+date: 'Amended by the Board of Directors: February 9, 2022.'
 numbersections: no
 geometry: margin=1.25in
 ...
@@ -15,7 +15,7 @@ geometry: margin=1.25in
     e. **Honorary members** shall not be required to pay dues but shall be eligible to register to vote at membership meetings but not to hold any Club offices.
     f. **Associate members** shall pay dues as established by the Board of Directors but shall not be eligible to vote at membership meetings or to hold any Club offices.  Qualification for Associate membership shall be determined by the Board of Directors.
 2. Application for membership shall be subject to approval by majority vote of the Board of Directors.  In addition, the Board shall have the power to censure, suspend or expel any member for conduct unacceptable to the Club, but such action may be taken only by a two-thirds (2/3) vote of the entire Board.
-3. The term "enfranchised member" as used in these By-Laws shall denote all members in categories Regular, Affiliate, Senior, Junior and Honorary of Section 1 of this Article who are not currently suspended from membership.
+3. The term "enfranchised member" as used in these By-Laws shall denote all members aged sixteen (16) years of age or older in categories Regular, Affiliate, Senior, Junior and Honorary of Section A of this Article who are not currently suspended from membership.
 4. **Voting Members**
     a. **Responsibility.** The Voting Members are responsible for electing the Board of Directors. Information regarding nominees and voting instructions shall be provided to all enfranchised members and on the Club website.
     b. **Definition.** Members with memberships of less than one year duration at their start are not eligible to become voting members. All other PCC enfranchised members are entitled to register as voting members. All Board of Directors are voting members.
