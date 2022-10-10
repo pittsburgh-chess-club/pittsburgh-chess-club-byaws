@@ -1,7 +1,7 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
 subtitle: Bylaws
-date: 'Amended by the Board of Directors: February 9, 2022.'
+date: 'Amended by the Board of Directors: May 11, 2022.'
 numbersections: no
 geometry: margin=1.25in
 ...
@@ -12,11 +12,15 @@ geometry: margin=1.25in
     b. **Affiliate members** (Members of a Registered Affiliate Club) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold all Club offices after one year of membership.
     c. **Senior members** (65 years and older) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold all Club offices after one year of membership.
     d. **Junior members** (under 18 years) shall pay dues as established by the Board of Directors and shall be eligible to register to vote at membership meetings and to hold any Club offices other than President, Vice President or Treasurer after one year of membership.
-    e. **Honorary members** shall not be required to pay dues but shall be eligible to register to vote at membership meetings but not to hold any Club offices.
+    e. **Honorary members** shall be any distinguished person the Board of Directors deem beneficial to the association, and votes said individual into membership by a majority vote, at any Board Meeting. Honorary Membership is the highest honor that may be bestowed by the Pittsburgh Chess Club. Honorary members shall have all the rights and benefits of an individual member, except that they shall not be eligible to hold any Club Office. Honorary members shall pay no dues. Honorary membership shall have no fixed duration, but shall be terminated if the Honorary Member is suspended or expelled in accordance with Article I, Section 2 of these by-laws. An Honorary Member whose membership is suspended in accordance with Article 1, Section 2 of these by-laws shall not be reinstated to Honorary Membership after their suspension is lifted unless they are again nominated and approved for Honorary Membership in accordance with Article 1, Section 3 of these by-laws, but they may apply for membership under a different class of membership.
     f. **Associate members** shall pay dues as established by the Board of Directors but shall not be eligible to vote at membership meetings or to hold any Club offices.  Qualification for Associate membership shall be determined by the Board of Directors.
 2. Application for membership shall be subject to approval by majority vote of the Board of Directors.  In addition, the Board shall have the power to censure, suspend or expel any member for conduct unacceptable to the Club, but such action may be taken only by a two-thirds (2/3) vote of the entire Board.
-3. The term "enfranchised member" as used in these By-Laws shall denote all members aged sixteen (16) years of age or older in categories Regular, Affiliate, Senior, Junior and Honorary of Section A of this Article who are not currently suspended from membership.
-4. **Voting Members**
+3. ***Nominations for Honorary Membership.***
+    a. Any member of the Pittsburgh Chess Club may nominate an individual for Honorary Membership.
+    b. Any individual is eligible for Honorary Membership unless they have been expelled from membership in the Pittsburgh Chess Club or their club membership is suspended at the time of nomination.
+    c. The process of nominating and approving Honorary Members shall be described in the Policies and Procedures document.
+4. The term "enfranchised member" as used in these By-Laws shall denote all members aged sixteen (16) years of age or older in categories Regular, Affiliate, Senior, Junior and Honorary of Section A of this Article who are not currently suspended from membership.
+5. **Voting Members**
     a. **Responsibility.** The Voting Members are responsible for electing the Board of Directors. Information regarding nominees and voting instructions shall be provided to all enfranchised members and on the Club website.
     b. **Definition.** Members with memberships of less than one year duration at their start are not eligible to become voting members. All other PCC enfranchised members are entitled to register as voting members. All Board of Directors are voting members.
     c. **Registration.** Eligible members who are not already registered as Voting Members must register with the Membership Committee by October 15th to be eligible to vote in that year's regular election. The exception to this eligibility are the Board of Directors, who are automatically registered as Voting Members. There is no registration fee. Once registered, a member's status as a Voting Member continues as long as he or she is a member. When a membership lapses, Voting Member status ceases and the member must, after rejoining, again register by October 15th to be eligible to vote in that year's regular election.
@@ -24,18 +28,18 @@ geometry: margin=1.25in
     e. **Special Elections.** The eligibility dates for voting in an election shall be part of the call for the special election and should use cutoff dates equivalent to the above based on when the ballots are expected to be received by the voting members.
     f. **Nomination Deadlines.** The registration deadline for those not already registered shall be the same as the deadline for the submission of nominating petitions.
     g. **Electronic Voting.** Should the PCC implement an electronic voting system as an alternative to using paper ballot or verbal vote, voting members will only be entitled to vote using the electronic voting system unless they request a paper ballot by writing to the Membership Committee prior to October 8th for a regular election or the equivalent cutoff date for a special election.
-5. **Membership Data.**
+6. **Membership Data.**
     a. A Membership Registry (aka. Registry) shall be defined as any data source which can retain details about each Club member, including: name, contact details, membership status, membership expiration date,status of dues payment, and transactions.
     b. New and renewing memberships shall be recorded into the Registry within at least (1) month of application acceptance.
     c. Access to the Registry shall be controlled, it's privacy safe-guarded, and it's availability ensured by the Club Officers.
     d. The Club shall maintain a Privacy Policy.
-6. **Membership Notifications.**
+7. **Membership Notifications.**
     a. A Membership Notification is a message from the Board of Directors, a Membership Director, or Membership Committee to one or more enfranchised members. The message type can vary between(depending on contact details available): email, U.S. Postal mail, phone call, SMS text message, or announcement on the Club Website
     b. Notifications shall be sent to individual enfranchised members whenever any of the following criteria is met (that applies):
         i. New or renewing membership application has been accepted
         ii. Membership expiration is within 30-days
         iii. Membership expiration date has passed
-7. **Membership Reporting.**
+8. **Membership Reporting.**
     a. The status of Club Memberships shall be reported at every Board of Directors meeting. Specifically, the status shall include at minimum:
         i. Count of active members, categorized by membership type
         ii. Count of new/renewed memberships in last 30-days
