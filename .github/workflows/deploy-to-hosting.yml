@@ -9,10 +9,19 @@ jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
+    container:
+      image: pandoc/latex:2.19-ubuntu 
     steps:
     - uses: actions/checkout@v2.1.0
       with:
         fetch-depth: 2
+    - name: Prebuild Dependancies 
+      run: |
+        apt-get update
+        apt-get install make
+        tlmgr install enumitem lastpage lineno
+    - name: Build document formats
+      run: make build
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
