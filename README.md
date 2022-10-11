@@ -1,9 +1,7 @@
 Pittsburgh Chess Club Bylaws
 ============================
 
-This is the official repository for the Pittsburgh Chess Club Bylaws. The bylaws are in markdown format with helper scripts to generate other various formats.
-
-Contributions and proposed changes can be submitted either by GitHub pull request or issues.
+This is the official repository for the Pittsburgh Chess Club Bylaws. The bylaws are in markdown format with helper scripts to generate other various formats. GitHub Actions is used to automate testing, format conversion, and publishing the main branch.
 
 Advantages
 ----------
