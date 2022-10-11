@@ -1,11 +1,10 @@
 name: Publish Artifacts
 
 on:
+  # Triggers the workflow on push events to any branch
+  push:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-  push:
-  release:
-    types: [published]
 
 env:
   GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
@@ -43,28 +42,3 @@ jobs:
       id: upload-html
       with:
         path: ./bylaws.html
-    - if: github.event_name == 'release' && github.event.action == 'published'
-      name: Get Release
-      id: release
-      uses: bruceadams/get-release@v1.2.0
-    - if: github.event_name == 'release' && github.event.action ==  'published'
-      name: Attach PDF Document to Release
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.release.outputs.upload_url }}
-        asset_path: ./bylaws.pdf
-        asset_name: bylaws.pdf
-    - if: github.event_name == 'release' && github.event.action ==  'published'
-      name: Attach WordDoc to Release
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.release.outputs.upload_url }}
-        asset_path: ./bylaws.docx
-        asset_name: bylaws.docx
-    - if: github.event_name == 'release' && github.event.action ==  'published'
-      name: Attach HTML to Release
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ steps.release.outputs.upload_url }}
-        asset_path: ./bylaws.html
-        asset_name: bylaws.html

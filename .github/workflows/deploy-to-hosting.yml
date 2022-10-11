@@ -1,10 +1,14 @@
-name: Publish Website
+name: Publish and Deploy to Website
 on:
-  # Triggers the workflow on push events but only for the "main" branch
-  push:
-    branches: ["main"]
+  # Triggers the workflow on published releases
+  release:
+    types: [published]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
+
+env:
+  GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+
 jobs:
   FTP-Deploy-Action:
     name: FTP-Deploy-Action
@@ -22,7 +26,7 @@ jobs:
         tlmgr install enumitem lastpage lineno
     - name: Build document formats
       run: make build
-    - name: FTP-Deploy-Action
+    - name: Deploy to Hosting
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: ${{ secrets.FTP_SERVER }}
@@ -36,3 +40,28 @@ jobs:
           **/Makefile
           **/README.md
           **/templates/**
+    - if: github.event_name == 'release' && github.event.action == 'published'
+      name: Get Release
+      id: release
+      uses: bruceadams/get-release@v1.2.0
+    - if: github.event_name == 'release' && github.event.action ==  'published'
+      name: Attach PDF Document to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: ./bylaws.pdf
+        asset_name: bylaws.pdf
+    - if: github.event_name == 'release' && github.event.action ==  'published'
+      name: Attach WordDoc to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: ./bylaws.docx
+        asset_name: bylaws.docx
+    - if: github.event_name == 'release' && github.event.action ==  'published'
+      name: Attach HTML to Release
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.release.outputs.upload_url }}
+        asset_path: ./bylaws.html
+        asset_name: bylaws.html
