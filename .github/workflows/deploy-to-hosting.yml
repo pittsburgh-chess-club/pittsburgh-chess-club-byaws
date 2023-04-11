@@ -27,20 +27,14 @@ jobs:
     - name: Build document formats
       run: make build
     - name: Deploy to Hosting
-      uses: SamKirkland/FTP-Deploy-Action@4.3.2
+      uses: Creepios/sftp-action@v1.0.3
       with:
-        server: ${{ secrets.FTP_SERVER }}
+        host: ${{ secrets.FTP_SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
         port: ${{ secrets.FTP_SERVER_PORT }}
-        server-dir: ${{ secrets.FTP_SERVER_DIR }}
-        exclude: |
-          **/.git*
-          **/.git*/**
-          **/lint.sh
-          **/Makefile
-          **/README.md
-          **/templates/**
+        remotePath: ${{ secrets.FTP_SERVER_DIR }}
+        localPath: './bylaws.*'
     - if: github.event_name == 'release' && github.event.action == 'published'
       name: Get Release
       id: release
