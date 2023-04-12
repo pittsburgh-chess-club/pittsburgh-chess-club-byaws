@@ -1,7 +1,7 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
-subtitle: Bylaws
-date: 'Amended by the Board of Directors: May 11, 2022.'
+subtitle: Bylaws (DRAFT AMENDMENT)
+date: 'Amended by the Board of Directors: May 11, 2022. Proposed amendment: October 11, 2022'
 numbersections: no
 geometry: margin=1.25in
 ...
@@ -122,3 +122,17 @@ geometry: margin=1.25in
     c. Payments to the interested officer or director are reasonable and do not exceed fair market value.
     d. No interested officer or director may vote or lobby on the matter or be counted in determining the existence of a quorum at the meeting at which such transaction may be authorized.
     e. The minutes of meetings at which such votes are taken shall record such disclosure, abstention, and rationale for approval.
+
+# Article IX. Standing Committees
+
+1. The following shall be a standing committee of the PCC:
+    a. Membership Committee
+    b. Education Committee
+    c. Tournament Committee
+    d. Technologist Committee
+    e. Historical Committee
+
+# Article X. Terms and Definitions
+
+1. PCC refers to The Pittsburgh Chess Club, Inc., aka. Pittsburgh Chess Club.
+
