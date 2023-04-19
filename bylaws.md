@@ -76,7 +76,7 @@ geometry: margin=1.25in
 12. Proxy voting shall be permitted for any decision of the Board requiring a vote of the entire Board.
 13. The "entire Board" as the term is used in these By-Laws shall be comprised by all elected members currently sitting on the Board.  Any unfilled seats are not counted as part of the "entire Board".
 14. **Automatic Resignation.** Any Director or Executive who fails to attend (3) consecutive regular meetings of the Board of Directors meetings or who fails to attend (6) total regular meetings of the Board of Directors meetings within any twelve month period, without just cause, shall be deemed to have automatically resigned as a director, provided that the automatic resignation may be waived by resolution adopted by a majority vote of the remaining directors with the written consent of the resigned director, in which event said director shall remain on the Board. The resignation becomes effective (7) days after the last missed meeting.
-15. **Sabbatical.** Any member of the Board of Directors or Committee may request a period of less than (3) months where they are excused from their duties and attendance. Approval must be voted by the entire board. Board members on sabbatical leave may attend meetings and vote in the normal fashion, but will not be counted for the purpose of determining the number of members needed for a quorum.
+15. **Sabbatical.** Any member of the Board of Directors or Committee may request a period of less than (3) months where they are excused from their duties and attendance. Approval must be voted by the entire board. Board members on sabbatical leave will not be counted for the purpose of determining the minimum number of members needed for a quorum.
 
 # Article III. Membership Meetings
 
