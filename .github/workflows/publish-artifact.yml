@@ -42,3 +42,20 @@ jobs:
       id: upload-html
       with:
         path: ./bylaws.html
+    - name: Create a publish folder
+        run: |
+              mkdir publish
+              cp -av ./bylaws.pdf publish/
+              cp -av ./bylaws.html publish/
+    - name: Push to public repository
+        id: push_directory
+        uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.WORKFLOW_DEPLOY_KEY }}
+        with:
+          source-directory: publish/
+          destination-github-username: ${{ secrets.DST_GITHUB_USERNAME }}
+          destination-repository-name: ${{ secrets.DST_GITHUB_REPONAME }}
+          user-email: github-actions-bot@pittsburghchessclub.org
+          commit-message: pushed from $GITHUB_REF
+          target-branch: master
