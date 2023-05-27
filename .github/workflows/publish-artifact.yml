@@ -56,6 +56,8 @@ jobs:
         source-directory: publish/
         destination-github-username: ${{ secrets.DST_GITHUB_USERNAME }}
         destination-repository-name: ${{ secrets.DST_GITHUB_REPONAME }}
+        target-directory: bylaws/
         user-email: github-actions-bot@pittsburghchessclub.org
+        user-name: Github Actions Bot
         commit-message: pushed from $GITHUB_REF
-        target-branch: master
+        target-branch: main
