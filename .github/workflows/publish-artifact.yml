@@ -3,7 +3,7 @@ name: Publish Artifacts
 on:
   # Triggers the workflow on push events to any branch
   push:
-    branches: ["fix/amendment-header-20230527"]
+    branches: ["main"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
