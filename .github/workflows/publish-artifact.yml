@@ -3,61 +3,72 @@ name: Publish Artifacts
 on:
   # Triggers the workflow on push events to any branch
   push:
+    branches: ["fix/amendment-header-20230527"]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 env:
   GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+  
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  publish:
-    runs-on: ubuntu-latest
-    name: Publish Bylaws Artifact
-    container:
-      image: pandoc/latex:2.19-ubuntu
-    steps:
-    - name: Checkout
-      uses: actions/checkout@v2.1.0
-      with:
-        fetch-depth: 2
-    - name: Prebuild Dependancies 
-      run: |
-        apt-get update
-        apt-get install make
-        tlmgr install enumitem lastpage lineno
-    - name: Build document formats
-      run: make build    
-    - name: Upload PDF Document
-      uses: actions/upload-artifact@v3
-      id: upload-pdf
-      with:
-        path: ./bylaws.pdf
-    - name: Upload Word DOC
-      uses: actions/upload-artifact@v3
-      id: upload-worddoc
-      with:
-        path: ./bylaws.docx
-    - name: Upload HTML
-      uses: actions/upload-artifact@v3
-      id: upload-html
-      with:
-        path: ./bylaws.html
-    - name: Create a publish folder
-      run: |
-            mkdir publish
-            cp -av ./bylaws.pdf publish/
-            cp -av ./bylaws.html publish/
-    - name: Push to public repository
-      id: push_directory
-      uses: cpina/github-action-push-to-another-repository@ssh-deploy-key
-      env:
-        SSH_DEPLOY_KEY: ${{ secrets.WORKFLOW_DEPLOY_KEY }}
-      with:
-        source-directory: publish/
-        destination-github-username: ${{ secrets.DST_GITHUB_USERNAME }}
-        destination-repository-name: ${{ secrets.DST_GITHUB_REPONAME }}
-        target-directory: bylaws/
-        user-email: github-actions-bot@pittsburghchessclub.org
-        user-name: Github Actions Bot
-        commit-message: pushed from $GITHUB_REF
-        target-branch: main
+    deploy:
+      environment:
+        name: github-pages
+        url: ${{ steps.deployment.outputs.page_url }}
+      runs-on: ubuntu-latest
+      container:
+        image: pandoc/latex:2.19-ubuntu
+      steps:
+        - name: Checkout
+          uses: actions/checkout@v3
+          with:
+            fetch-depth: 2
+        - name: Prebuild Dependancies 
+          run: |
+            apt-get update
+            apt-get install make
+            tlmgr install enumitem lastpage lineno
+        - name: Build document formats
+          run: make build
+        - name: Setup Pages
+          uses: actions/configure-pages@v3
+        - name: Upload PDF Document
+          uses: actions/upload-artifact@v3
+          id: upload-pdf
+          with:
+            path: ./bylaws.pdf
+        - name: Upload Word DOC
+          uses: actions/upload-artifact@v3
+          id: upload-worddoc
+          with:
+            path: ./bylaws.docx
+        - name: Upload HTML
+          uses: actions/upload-artifact@v3
+          id: upload-html
+          with:
+            path: ./bylaws.html
+        - name: Create a publish folder
+          run: |
+              mkdir bylaws
+              cp -av ./bylaws.pdf bylaws/
+              cp -av ./bylaws.html bylaws/
+        - name: Publish artifacts
+          uses: actions/upload-pages-artifact@v1
+          with:
+            # Upload entire bylaws directory
+            path: './bylaws/'
+        - name: Deploy to GitHub Pages
+          id: deployment
+          uses: actions/deploy-pages@v2
