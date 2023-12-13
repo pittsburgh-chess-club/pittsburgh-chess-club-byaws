@@ -88,8 +88,9 @@ geometry: margin=1.25in
 # Article IV. Elections
 
 1. Directors shall be elected at the annual membership meeting for a term of three (3) years in such a way that the terms of one-third (1/3) of the Directors shall expire each year.
-2. Nominations for membership on the Board of Directors shall be made by a Nominating Committee of at least three (#) Club members appointed by the President and chaired by a Director whose term does not expire during the current year.  This committee shall, by August 15, report its slate of nominees in writing to the President. In addition, any enfranchised member who is eligible to register to vote may be nominated as a candidate. Nominating petitions must be submitted on or before October 1st of that year's election.
+2. Nominations for membership on the Board of Directors shall be made by a Nominating Committee of at least three (#) Club members appointed by the President and chaired by a Director whose term does not expire during the current year.  This committee shall, by August 15, report its slate of nominees and each nominee candidate statement to the President. In addition, any enfranchised member who is eligible to register to vote may be nominated as a candidate. Nominating petitions must be submitted to the Election Committee by September 1st of the election year. The Petitions must include a candidate statement and be endorsed by at least 5 registered voting member signatures.
 3. The Secretary shall include, with the notice and agenda of the annual membership meeting, the slate of candidates named by the Nominating Committee.
+4. Election votes shall be taken by secret ballot. Votes shall be allowed to be cast electronically at least 48-hours, but no more than 7-days, before the ballot closes.
 
 # Article V. Amendments
 
@@ -124,13 +125,21 @@ geometry: margin=1.25in
     e. The minutes of meetings at which such votes are taken shall record such disclosure, abstention, and rationale for approval.
 
 # Article IX. Standing Committees
-
-1. The following shall be a standing committee of the PCC:
-    a. Membership Committee
-    b. Education Committee
-    c. Tournament Committee
-    d. Technologist Committee
-    e. Historical Committee
+1. Committees are essential to the effective operation of Club governance. Committee membership enables members to develop specialized knowledge of the matters under their jurisdiction. Committees monitor on-going club operations, identify issues suitable for review, gather and evaluate information, and recommend courses of action to the Board. Some committee members may be authorized by the Board of Directors to perform special actions. Standing Committees include:
+    a. Finance Committee
+    b. Nominating Committee
+    c. Election Committee
+    d. Membership Committee
+    e. Education Committee
+    f. Tournament Committee
+    g. Special Events Committee
+    h. Technologist Committee
+    i. Historical Committee
+    j. Promotion Committee
+2. **Finance Committee:** This committee shall be chaired by the Treasurer, include at least one Deputy Treasurer, and meet at least once per month. The Finance Committee should maintain a continuing mission to:
+    a. Ensure proper finance reporting at the Board of Directors Meeting
+    b. Ensure proper finance reporting to the State and Federal authorities
+3. **Nominating Committee:** The Nominating Committee shall consist of at least three (#) Club Members appointed by the President and chaired by a Board Director whose term does not expire during the current year.  This committee shall, by August 15, report its slate of nominees and each nominee's candidate statement to the President.
 
 # Article X. Terms and Definitions
 
