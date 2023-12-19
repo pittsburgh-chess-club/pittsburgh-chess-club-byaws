@@ -1,7 +1,7 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
 subtitle: Bylaws
-date: 'Amended by the Board of Directors: May 10, 2023.'
+date: 'Amended by the Board of Directors: May 11, 2022.'
 numbersections: no
 geometry: margin=1.25in
 ...
