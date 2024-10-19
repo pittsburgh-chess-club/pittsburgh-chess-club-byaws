@@ -1,7 +1,7 @@
 ---
 title: The Pittsburgh Chess Club, Inc.
 subtitle: Bylaws
-date: 'Amended by the Board of Directors: May 10, 2023.'
+date: 'Amended by the Board of Directors: October 19, 2024.'
 numbersections: no
 geometry: margin=1.25in
 ...
@@ -83,7 +83,11 @@ geometry: margin=1.25in
 1. The President shall call an annual membership meeting for conduct of Club business on any date during October, to be held at the Club quarters or via Web Conference.  In addition, upon the affirmative vote of a majority of the entire Board of Directors, the President shall call such special membership meetings as may be required.
 2. At least fourteen (14) days before the date selected for the annual or any special membership meeting, the Secretary shall mail to each enfranchised member a notice and agenda for that meeting.  Alternatively, provided that the fourteen (14) day advance notice requirement is met, publication of such notice and agenda in the Club newsletter shall suffice.
 3. At any membership meeting, fifteen (15) percent of the current enfranchised members who are eligible to register to vote shall constitute a quorum.
-4. Membership meetings shall be conducted in accordance with Robert's Rules of Order.
+    a. Current enfranchised members who submit an Absentee Notice indicating their intention to participate through absentee ballots or remote communication shall be counted toward quorum.
+    b. Absentee Notices shall be administrated by the Election Administrator(s).
+    c. The Absentee Notice must be submitted at least 1 hour before the meeting.
+    d. Such members shall retain their right to vote on all matters presented during the meeting by online platform.
+5. Membership meetings shall be conducted in accordance with Robert's Rules of Order.
 
 # Article IV. Elections
 
